@@ -26,9 +26,10 @@
 // Headers
 ////////////////////////////////////////////////////////////
 #include <CSFML/Audio/Listener.h>
-#include <CSFML/System/ConvertVector3.hpp>
 
 #include <SFML/Audio/Listener.hpp>
+
+#include "../System/ConvertVector3.hpp"
 
 
 ////////////////////////////////////////////////////////////

@@ -25,14 +25,15 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/Audio/ConvertCone.hpp>
 #include <CSFML/Audio/Music.h>
-#include <CSFML/Audio/MusicStruct.hpp>
-#include <CSFML/System/ConvertVector3.hpp>
 
 #include <SFML/Audio/SoundChannel.hpp>
 
 #include <cstring>
+
+#include "../System/ConvertVector3.hpp"
+#include "ConvertCone.hpp"
+#include "MusicStruct.hpp"
 
 ////////////////////////////////////////////////////////////
 sfMusic* sfMusic_createFromFile(const char* filename)

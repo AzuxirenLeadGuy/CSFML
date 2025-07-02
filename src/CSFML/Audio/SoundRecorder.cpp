@@ -26,10 +26,11 @@
 // Headers
 ////////////////////////////////////////////////////////////
 #include <CSFML/Audio/SoundRecorder.h>
-#include <CSFML/Audio/SoundRecorderStruct.hpp>
 
 #include <cassert>
 #include <cstring>
+
+#include "SoundRecorderStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

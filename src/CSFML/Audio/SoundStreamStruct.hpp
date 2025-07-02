@@ -31,6 +31,8 @@
 
 #include <SFML/Audio/SoundStream.hpp>
 
+#include "CSFML/Audio/SoundStream.h"
+
 
 ////////////////////////////////////////////////////////////
 // Internal structure of sfSoundStream

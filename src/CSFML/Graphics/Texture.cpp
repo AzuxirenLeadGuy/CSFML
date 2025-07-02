@@ -25,16 +25,17 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/CallbackStream.hpp>
-#include <CSFML/Graphics/ConvertRect.hpp>
-#include <CSFML/Graphics/ImageStruct.hpp>
-#include <CSFML/Graphics/RenderWindowStruct.hpp>
 #include <CSFML/Graphics/Texture.h>
-#include <CSFML/Graphics/TextureStruct.hpp>
-#include <CSFML/System/ConvertVector2.hpp>
-#include <CSFML/Window/WindowStruct.hpp>
 
 #include <memory>
+
+#include "../CallbackStream.hpp"
+#include "../System/ConvertVector2.hpp"
+#include "../Window/WindowStruct.hpp"
+#include "ConvertRect.hpp"
+#include "ImageStruct.hpp"
+#include "RenderWindowStruct.hpp"
+#include "TextureStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

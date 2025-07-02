@@ -26,8 +26,9 @@
 // Headers
 ////////////////////////////////////////////////////////////
 #include <CSFML/Window/Context.h>
-#include <CSFML/Window/ContextStruct.hpp>
-#include <CSFML/Window/ConvertContextSettings.hpp>
+
+#include "ContextStruct.hpp"
+#include "ConvertContextSettings.hpp"
 
 
 ////////////////////////////////////////////////////////////

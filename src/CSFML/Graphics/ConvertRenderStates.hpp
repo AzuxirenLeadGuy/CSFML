@@ -27,12 +27,13 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/Graphics/ConvertTransform.hpp>
 #include <CSFML/Graphics/RenderStates.h>
-#include <CSFML/Graphics/ShaderStruct.hpp>
-#include <CSFML/Graphics/TextureStruct.hpp>
 
 #include <SFML/Graphics/RenderStates.hpp>
+
+#include "ConvertTransform.hpp"
+#include "ShaderStruct.hpp"
+#include "TextureStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

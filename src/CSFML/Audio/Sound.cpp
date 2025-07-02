@@ -25,10 +25,11 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/Audio/ConvertCone.hpp>
 #include <CSFML/Audio/Sound.h>
-#include <CSFML/Audio/SoundStruct.hpp>
-#include <CSFML/System/ConvertVector3.hpp>
+
+#include "../System/ConvertVector3.hpp"
+#include "ConvertCone.hpp"
+#include "SoundStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

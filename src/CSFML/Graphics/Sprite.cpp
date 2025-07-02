@@ -25,15 +25,16 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/Graphics/ConvertColor.hpp>
-#include <CSFML/Graphics/ConvertRect.hpp>
-#include <CSFML/Graphics/ConvertTransform.hpp>
 #include <CSFML/Graphics/Sprite.h>
-#include <CSFML/Graphics/SpriteStruct.hpp>
-#include <CSFML/System/ConvertVector2.hpp>
 
 #include <SFML/Graphics/Color.hpp>
 #include <SFML/Graphics/Image.hpp>
+
+#include "../System/ConvertVector2.hpp"
+#include "ConvertColor.hpp"
+#include "ConvertRect.hpp"
+#include "ConvertTransform.hpp"
+#include "SpriteStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

@@ -28,11 +28,12 @@
 // Headers
 ////////////////////////////////////////////////////////////
 #include <CSFML/Graphics/Shape.h>
-#include <CSFML/Graphics/TextureStruct.hpp>
 #include <CSFML/Graphics/Transform.h>
-#include <CSFML/System/ConvertVector2.hpp>
 
 #include <SFML/Graphics/Shape.hpp>
+
+#include "../System/ConvertVector2.hpp"
+#include "TextureStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

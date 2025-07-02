@@ -25,14 +25,15 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/Graphics/ConvertRect.hpp>
-#include <CSFML/Graphics/ConvertTransform.hpp>
 #include <CSFML/Graphics/Transform.h>
-#include <CSFML/System/ConvertVector2.hpp>
 
 #include <SFML/Graphics/Transform.hpp>
 
 #include <cstring>
+
+#include "../System/ConvertVector2.hpp"
+#include "ConvertRect.hpp"
+#include "ConvertTransform.hpp"
 
 
 ////////////////////////////////////////////////////////////

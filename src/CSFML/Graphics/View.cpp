@@ -25,10 +25,11 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/Graphics/ConvertRect.hpp>
 #include <CSFML/Graphics/View.h>
-#include <CSFML/Graphics/ViewStruct.hpp>
-#include <CSFML/System/ConvertVector2.hpp>
+
+#include "../System/ConvertVector2.hpp"
+#include "ConvertRect.hpp"
+#include "ViewStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

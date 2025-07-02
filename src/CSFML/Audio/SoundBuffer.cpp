@@ -26,10 +26,11 @@
 // Headers
 ////////////////////////////////////////////////////////////
 #include <CSFML/Audio/SoundBuffer.h>
-#include <CSFML/Audio/SoundBufferStruct.hpp>
-#include <CSFML/CallbackStream.hpp>
 
 #include <cstring>
+
+#include "../CallbackStream.hpp"
+#include "SoundBufferStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

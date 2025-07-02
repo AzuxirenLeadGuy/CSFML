@@ -25,13 +25,14 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/CallbackStream.hpp>
-#include <CSFML/Graphics/ConvertColor.hpp>
-#include <CSFML/Graphics/ConvertRect.hpp>
 #include <CSFML/Graphics/Image.h>
-#include <CSFML/Graphics/ImageStruct.hpp>
-#include <CSFML/System/BufferStruct.hpp>
-#include <CSFML/System/ConvertVector2.hpp>
+
+#include "../CallbackStream.hpp"
+#include "../System/BufferStruct.hpp"
+#include "../System/ConvertVector2.hpp"
+#include "ConvertColor.hpp"
+#include "ConvertRect.hpp"
+#include "ImageStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

@@ -1,0 +1,6 @@
+[submodule "subprojects/sfml"]
+	path = subprojects/sfml
+	url = git@github.com:AzuxirenLeadGuy/SFML-custom.git
+[submodule "subprojects/Catch2"]
+	path = subprojects/Catch2
+	url = https://github.com/catchorg/Catch2.git

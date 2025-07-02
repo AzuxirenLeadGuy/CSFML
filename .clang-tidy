@@ -28,6 +28,7 @@ Checks: >
   -modernize-redundant-void-arg,
   -modernize-use-trailing-return-type,
   -modernize-use-using,
+  -cppcoreguidelines-avoid-do-while
 CheckOptions:
   - { key: readability-identifier-naming.VariableCase,        value: camelBack }
   - { key: readability-identifier-naming.GlobalVariableCase,  value: aNy_CasE }

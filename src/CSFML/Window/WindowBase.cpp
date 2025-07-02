@@ -25,16 +25,17 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/System/ConvertVector2.hpp>
-#include <CSFML/Window/ConvertEvent.hpp>
-#include <CSFML/Window/ConvertVideoMode.hpp>
-#include <CSFML/Window/CursorStruct.hpp>
 #include <CSFML/Window/WindowBase.h>
-#include <CSFML/Window/WindowBaseStruct.hpp>
 
 #include <SFML/Window/VideoMode.hpp>
 
 #include <optional>
+
+#include "../System/ConvertVector2.hpp"
+#include "ConvertEvent.hpp"
+#include "ConvertVideoMode.hpp"
+#include "CursorStruct.hpp"
+#include "WindowBaseStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

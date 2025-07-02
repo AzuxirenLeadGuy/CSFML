@@ -25,10 +25,11 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/Graphics/ConvertTransform.hpp>
 #include <CSFML/Graphics/Transformable.h>
-#include <CSFML/Graphics/TransformableStruct.hpp>
-#include <CSFML/System/ConvertVector2.hpp>
+
+#include "../System/ConvertVector2.hpp"
+#include "ConvertTransform.hpp"
+#include "TransformableStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

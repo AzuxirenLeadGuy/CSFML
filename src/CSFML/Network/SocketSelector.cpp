@@ -26,10 +26,11 @@
 // Headers
 ////////////////////////////////////////////////////////////
 #include <CSFML/Network/SocketSelector.h>
-#include <CSFML/Network/SocketSelectorStruct.hpp>
-#include <CSFML/Network/TcpListenerStruct.hpp>
-#include <CSFML/Network/TcpSocketStruct.hpp>
-#include <CSFML/Network/UdpSocketStruct.hpp>
+
+#include "SocketSelectorStruct.hpp"
+#include "TcpListenerStruct.hpp"
+#include "TcpSocketStruct.hpp"
+#include "UdpSocketStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

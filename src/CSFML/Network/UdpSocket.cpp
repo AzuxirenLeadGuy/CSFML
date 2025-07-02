@@ -25,13 +25,14 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/Network/PacketStruct.hpp>
 #include <CSFML/Network/UdpSocket.h>
-#include <CSFML/Network/UdpSocketStruct.hpp>
 
 #include <SFML/Network/IpAddress.hpp>
 
 #include <cstring>
+
+#include "PacketStruct.hpp"
+#include "UdpSocketStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

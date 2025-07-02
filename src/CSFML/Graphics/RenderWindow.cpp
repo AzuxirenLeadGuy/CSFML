@@ -25,28 +25,29 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/Graphics/CircleShapeStruct.hpp>
-#include <CSFML/Graphics/ConvertColor.hpp>
-#include <CSFML/Graphics/ConvertRect.hpp>
-#include <CSFML/Graphics/ConvertRenderStates.hpp>
-#include <CSFML/Graphics/ConvertStencil.hpp>
-#include <CSFML/Graphics/ConvexShapeStruct.hpp>
-#include <CSFML/Graphics/ImageStruct.hpp>
-#include <CSFML/Graphics/RectangleShapeStruct.hpp>
 #include <CSFML/Graphics/RenderWindow.h>
-#include <CSFML/Graphics/RenderWindowStruct.hpp>
-#include <CSFML/Graphics/ShapeStruct.hpp>
-#include <CSFML/Graphics/SpriteStruct.hpp>
-#include <CSFML/Graphics/TextStruct.hpp>
-#include <CSFML/Graphics/VertexArrayStruct.hpp>
-#include <CSFML/Graphics/VertexBufferStruct.hpp>
-#include <CSFML/System/ConvertVector2.hpp>
-#include <CSFML/Window/ConvertContextSettings.hpp>
-#include <CSFML/Window/ConvertEvent.hpp>
-#include <CSFML/Window/ConvertVideoMode.hpp>
-#include <CSFML/Window/CursorStruct.hpp>
 
 #include <SFML/Window/Touch.hpp>
+
+#include "../System/ConvertVector2.hpp"
+#include "../Window/ConvertContextSettings.hpp"
+#include "../Window/ConvertEvent.hpp"
+#include "../Window/ConvertVideoMode.hpp"
+#include "../Window/CursorStruct.hpp"
+#include "CircleShapeStruct.hpp"
+#include "ConvertColor.hpp"
+#include "ConvertRect.hpp"
+#include "ConvertRenderStates.hpp"
+#include "ConvertStencil.hpp"
+#include "ConvexShapeStruct.hpp"
+#include "ImageStruct.hpp"
+#include "RectangleShapeStruct.hpp"
+#include "RenderWindowStruct.hpp"
+#include "ShapeStruct.hpp"
+#include "SpriteStruct.hpp"
+#include "TextStruct.hpp"
+#include "VertexArrayStruct.hpp"
+#include "VertexBufferStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

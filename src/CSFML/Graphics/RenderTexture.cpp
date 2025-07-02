@@ -25,22 +25,23 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/Graphics/CircleShapeStruct.hpp>
-#include <CSFML/Graphics/ConvertColor.hpp>
-#include <CSFML/Graphics/ConvertRect.hpp>
-#include <CSFML/Graphics/ConvertRenderStates.hpp>
-#include <CSFML/Graphics/ConvertStencil.hpp>
-#include <CSFML/Graphics/ConvexShapeStruct.hpp>
-#include <CSFML/Graphics/RectangleShapeStruct.hpp>
 #include <CSFML/Graphics/RenderTexture.h>
-#include <CSFML/Graphics/RenderTextureStruct.hpp>
-#include <CSFML/Graphics/ShapeStruct.hpp>
-#include <CSFML/Graphics/SpriteStruct.hpp>
-#include <CSFML/Graphics/TextStruct.hpp>
-#include <CSFML/Graphics/VertexArrayStruct.hpp>
-#include <CSFML/Graphics/VertexBufferStruct.hpp>
-#include <CSFML/System/ConvertVector2.hpp>
-#include <CSFML/Window/ConvertContextSettings.hpp>
+
+#include "../System/ConvertVector2.hpp"
+#include "../Window/ConvertContextSettings.hpp"
+#include "CircleShapeStruct.hpp"
+#include "ConvertColor.hpp"
+#include "ConvertRect.hpp"
+#include "ConvertRenderStates.hpp"
+#include "ConvertStencil.hpp"
+#include "ConvexShapeStruct.hpp"
+#include "RectangleShapeStruct.hpp"
+#include "RenderTextureStruct.hpp"
+#include "ShapeStruct.hpp"
+#include "SpriteStruct.hpp"
+#include "TextStruct.hpp"
+#include "VertexArrayStruct.hpp"
+#include "VertexBufferStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

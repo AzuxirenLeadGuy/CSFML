@@ -26,10 +26,11 @@
 // Headers
 ////////////////////////////////////////////////////////////
 #include <CSFML/Network/TcpListener.h>
-#include <CSFML/Network/TcpListenerStruct.hpp>
-#include <CSFML/Network/TcpSocketStruct.hpp>
 
 #include <memory>
+
+#include "TcpListenerStruct.hpp"
+#include "TcpSocketStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////

@@ -26,12 +26,13 @@
 // Headers
 ////////////////////////////////////////////////////////////
 #include <CSFML/Network/Ftp.h>
-#include <CSFML/Network/FtpStruct.hpp>
 
 #include <SFML/Network/IpAddress.hpp>
 #include <SFML/System/String.hpp>
 
 #include <cstring>
+
+#include "FtpStruct.hpp"
 
 
 namespace

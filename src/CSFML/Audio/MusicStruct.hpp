@@ -28,11 +28,12 @@
 // Headers
 ////////////////////////////////////////////////////////////
 #include <CSFML/Audio/SoundChannel.h>
-#include <CSFML/CallbackStream.hpp>
 
 #include <SFML/Audio/Music.hpp>
 
 #include <vector>
+
+#include "../CallbackStream.hpp"
 
 
 ////////////////////////////////////////////////////////////

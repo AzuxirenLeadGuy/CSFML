@@ -27,13 +27,14 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/System/ConvertVector2.hpp>
-#include <CSFML/System/ConvertVector3.hpp>
 #include <CSFML/Window/Event.h>
 
 #include <SFML/Window/Event.hpp>
 
 #include <optional>
+
+#include "../System/ConvertVector2.hpp"
+#include "../System/ConvertVector3.hpp"
 
 
 ////////////////////////////////////////////////////////////

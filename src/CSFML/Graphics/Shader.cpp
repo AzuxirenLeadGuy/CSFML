@@ -25,11 +25,12 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <CSFML/CallbackStream.hpp>
-#include <CSFML/Graphics/ConvertTransform.hpp>
 #include <CSFML/Graphics/Shader.h>
-#include <CSFML/Graphics/ShaderStruct.hpp>
-#include <CSFML/Graphics/TextureStruct.hpp>
+
+#include "../CallbackStream.hpp"
+#include "ConvertTransform.hpp"
+#include "ShaderStruct.hpp"
+#include "TextureStruct.hpp"
 
 
 ////////////////////////////////////////////////////////////
