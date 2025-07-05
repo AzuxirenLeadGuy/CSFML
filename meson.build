@@ -144,11 +144,10 @@ catch2_dep = subproject('Catch2').get_variable('catch2_with_main_dep')
 
 foreach test_src : test_src_list
   name = test_src.split('/')[-1].split('.')[0]
-  message('Preparing unit test ' + name + ' , at path ' + meson.current_source_dir())
   test(
     name,
     executable(
-      name,
+      'test_' + name,
       [test_src],
       link_with: [lib_sfml_static],
       include_directories: [proj_inc_dir],
@@ -163,5 +162,8 @@ executable(
   ['examples/example.c'],
   link_with: [lib_sfml_shared],
   include_directories: [proj_inc_dir],
-  link_language: 'c',
+  install: false,
+  override_options: {
+    'c_std':'gnu2y',
+  }
 )

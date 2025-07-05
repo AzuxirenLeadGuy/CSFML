@@ -3,16 +3,29 @@
 
 #include <stdlib.h>
 
+const unsigned char doodle_pop_ogg[] = {
+#embed "doodle_pop.ogg"
+};
+
+const unsigned char sfml_logo_png[] = {
+#embed "sfml_logo.png"
+};
+
+const unsigned char tuffy_ttf[] = {
+#embed "tuffy.ttf"
+};
+
+
 int main(void)
 {
     // Create the main window
     const sfVideoMode mode   = {{800, 600}, 32};
-    sfRenderWindow*   window = sfRenderWindow_create(mode, "SFML window", sfResize | sfClose, sfWindowed, NULL);
+    sfRenderWindow*   window = sfRenderWindow_create(mode, "SFML window", sfResize | sfClose, sfWindowed, nullptr);
     if (!window)
         return EXIT_FAILURE;
 
     // Load a sprite to display
-    const sfTexture* texture = sfTexture_createFromFile("sfml_logo.png", NULL);
+    const sfTexture* texture = sfTexture_createFromMemory(sfml_logo_png, sizeof(sfml_logo_png), nullptr);
     if (!texture)
     {
         sfRenderWindow_destroy(window);
@@ -23,7 +36,8 @@ int main(void)
     sfSprite_setPosition(sprite, spritePosition);
 
     // Create a graphical text to display
-    const sfFont* font = sfFont_createFromFile("tuffy.ttf");
+
+    const sfFont* font = sfFont_createFromMemory(tuffy_ttf, sizeof(tuffy_ttf));
     if (!font)
     {
         sfSprite_destroy(sprite);
@@ -36,7 +50,7 @@ int main(void)
     sfText_setCharacterSize(text, 50);
 
     // Load a music to play
-    sfMusic* music = sfMusic_createFromFile("doodle_pop.ogg");
+    sfMusic* music = sfMusic_createFromMemory(doodle_pop_ogg, sizeof(doodle_pop_ogg));
     if (!music)
     {
         sfText_destroy(text);
@@ -66,10 +80,10 @@ int main(void)
         sfRenderWindow_clear(window, sfBlack);
 
         // Draw the sprite
-        sfRenderWindow_drawSprite(window, sprite, NULL);
+        sfRenderWindow_drawSprite(window, sprite, nullptr);
 
         // Draw the text
-        sfRenderWindow_drawText(window, text, NULL);
+        sfRenderWindow_drawText(window, text, nullptr);
 
         // Update the window
         sfRenderWindow_display(window);
